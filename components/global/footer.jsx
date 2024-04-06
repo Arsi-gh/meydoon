@@ -1,15 +1,13 @@
 import React from 'react'
-import Logo from './logo'
 import { toPersianNumbers } from '@/utilities/toPersianNumbers'
 import { PiPhoneDisconnect } from "react-icons/pi";
 import { MdAlternateEmail } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa6";
-import { FiClock } from "react-icons/fi";
 
 export default function Footer() {
   return (
     <footer className='bg-gradient-to-bl from-primary-200 to-primary-100 mt-20'>
-        <div className='2xl:max-w-screen-2xl max-w-screen-xl mx-auto sm:p-5 p-4 2xl:px-24 flex flex-wrap items-start justify-between text-primary-500 text-2xl max-md:flex-col max-md:gap-y-12'>
+        <div className='2xl:max-w-screen-2xl max-w-screen-xl mx-auto p-5 2xl:px-24 flex flex-wrap items-start justify-between text-primary-500 text-2xl max-md:flex-col max-md:gap-y-12'>
             <span className="flex flex-wrap gap-x-3 items-center max-sm:-mr-2">
                 <img className="w-44 max-sm:w-36" src="/images/cafe-logo.png" alt="cafe-logo" />
                 <p className="sm:text-4xl text-2xl text-primary-500">کـافه رستـوران میدون</p>
