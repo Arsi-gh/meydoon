@@ -32,8 +32,8 @@ const ContactInfo = () => {
             <p><b className='sm:text-2xl'>ساعت کاری : </b>۹ صبح الی ۲۳ شب</p>
             <p><b className='sm:text-2xl flex gap-2 items-center'>نشانی : </b>اصفهان ، خیابان  استانداری ، گذر پشت مطبخ</p>
             <span className='flex gap-2 flex-wrap'> 
-                <a className='p-2 rounded-lg flex gap-2 items-center bg-zinc-50 bg-opacity-40 sm:text-2xl px-3' href="mailto:info@cafemeydoon.com"><MdAlternateEmail className='text-xl'/>ایمیل</a>
-                <a className='p-2 rounded-lg flex gap-2 items-center bg-zinc-50 bg-opacity-40 sm:text-2xl px-3' href="https://www.instagram.com/meydoon.caferestaurant"><FaInstagram className='text-2xl'/>اینستاگرام</a>
+                <a className='p-2 rounded-lg flex gap-2 items-center bg-zinc-50 bg-opacity-40 sm:text-2xl px-3' target='_blank' href="mailto:info@cafemeydoon.com"><MdAlternateEmail className='text-xl'/>ایمیل</a>
+                <a className='p-2 rounded-lg flex gap-2 items-center bg-zinc-50 bg-opacity-40 sm:text-2xl px-3' target='_blank' href="https://www.instagram.com/meydoon.caferestaurant"><FaInstagram className='text-2xl'/>اینستاگرام</a>
             </span>
         </div>
     )
