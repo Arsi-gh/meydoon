@@ -8,6 +8,11 @@ export default function Categories() {
         <button className='flex gap-2 p-2 items-center rounded-lg bg-white shadow-md border border-zinc-100 min-w-fit'><LuEggFried className='menu-icon'/><p>صبحانه</p></button>
         <button className='flex gap-2 p-2 items-center rounded-lg bg-white shadow-md border border-zinc-100 min-w-fit'><LuSalad className='menu-icon'/><p>پیش غذا</p></button>
         <button className='flex gap-2 p-2 items-center rounded-lg bg-white shadow-md border border-zinc-100 min-w-fit'><LuCupSoda className='menu-icon'/><p>نوشیدنی</p></button>
+        <button className='flex gap-2 p-2 items-center rounded-lg bg-white shadow-md border border-zinc-100 min-w-fit'><p>نوشیدنی های گرم</p></button>
+        <button className='flex gap-2 p-2 items-center rounded-lg bg-white shadow-md border border-zinc-100 min-w-fit'><p>نوشیدنی های گرم بر پایه قهوه</p></button>
+        <button className='flex gap-2 p-2 items-center rounded-lg bg-white shadow-md border border-zinc-100 min-w-fit'><p>نوشیدنی های سرد بر پیاه قهوه</p></button>
+        <button className='flex gap-2 p-2 items-center rounded-lg bg-white shadow-md border border-zinc-100 min-w-fit'><p>چای ایرانی و سایر اقوام</p></button>
+        <button className='flex gap-2 p-2 items-center rounded-lg bg-white shadow-md border border-zinc-100 min-w-fit'><p>میلک شیک</p></button>
       </div>
     </div>
   )
