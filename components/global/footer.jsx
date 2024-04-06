@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className='bg-gradient-to-bl from-primary-200 to-primary-100 mt-20'>
+    <footer className='bg-gradient-to-bl from-primary-200 to-primary-100 mt-20 max-sm:rounded-t-[2rem]'>
         <div className='2xl:max-w-screen-2xl max-w-screen-xl mx-auto p-5 2xl:px-24 flex flex-wrap items-start justify-between text-primary-500 text-2xl max-md:flex-col max-md:gap-y-12'>
             <span className="flex flex-wrap gap-x-3 items-center max-sm:-mr-2">
                 <img className="w-44 max-sm:w-36" src="/images/cafe-logo.png" alt="cafe-logo" />
