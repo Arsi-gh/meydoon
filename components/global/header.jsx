@@ -6,9 +6,9 @@ import Logo from './logo';
 export default function Header() {
   return (
     <header className='2xl:max-w-screen-2xl 2xl:px-16 max-w-screen-xl mx-auto'>
-      <div className='bg-gradient-to-bl from-primary-200 to-primary-100 flex justify-between items-center sm:p-5 sm:pt-0 sm:rounded-b-[3rem] p-3 rounded-b-[2rem]'>
+      <div className='bg-gradient-to-bl from-primary-200 to-primary-100 flex justify-center items-center sm:p-5 sm:pt-0 sm:rounded-b-[3rem] p-3 rounded-b-[2rem]'>
         <Logo/>
-        <Search/>
+        {/* <Search/> */}
       </div>
     </header>
   )
